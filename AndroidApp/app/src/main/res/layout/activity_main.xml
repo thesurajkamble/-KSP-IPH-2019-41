@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity" >
+
+
+
+   <TextView
+       android:id="@+id/Logo"
+       android:layout_width="match_parent"
+       android:layout_height="59dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="0dp"
+       android:layout_marginTop="31dp"
+       android:background="#040C00"
+       android:paddingLeft="0dp"
+       android:paddingRight="0dp"
+
+       android:text="Beat Management"
+       android:textAlignment="center"
+       android:textColor="#FFC107"
+       android:textSize="36sp"
+       android:textStyle="bold" />
+
+   <ImageView
+       android:id="@+id/img-logo"
+       android:layout_width="200dp"
+       android:layout_height="180dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginStart="125dp"
+
+       android:layout_marginTop="106dp"
+       android:layout_marginEnd="128dp"
+       android:cropToPadding="true" />
+
+   <EditText
+       android:id="@+id/user_email"
+       android:layout_width="349dp"
+       android:layout_height="61dp"
+       android:hint="Email ID"
+       android:textColor="@color/colorPrimaryDark"
+       android:textColorHint="@android:color/white"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="38dp"
+       android:layout_marginEnd="24dp"
+       android:layout_marginBottom="334dp"
+       android:ems="10"
+       android:inputType="textEmailAddress" />
+
+   <EditText
+       android:id="@+id/user_password"
+       android:layout_width="349dp"
+       android:layout_height="61dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="35dp"
+       android:textColorHint="@android:color/white"
+       android:hint="Password"
+       android:textColor="@color/colorPrimaryDark"
+       android:layout_marginBottom="257dp"
+       android:ems="10"
+       android:inputType="textPassword" />
+
+   <Button
+       android:id="@+id/Login_btn"
+       android:layout_width="130dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="33dp"
+       android:layout_marginBottom="191dp"
+       android:background="#FFEB3B"
+       android:paddingLeft="0dp"
+       android:paddingTop="10dp"
+       android:paddingRight="10dp"
+       android:text="Login"
+       android:textColor="@android:color/black"
+       />
+
+   <Button
+       android:id="@+id/signup_btn"
+       android:layout_width="130dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="20dp"
+       android:layout_marginBottom="191dp"
+       android:background="#F8130101"
+       android:paddingTop="10dp"
+       android:paddingRight="0dp"
+       android:text="Register"
+       android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
